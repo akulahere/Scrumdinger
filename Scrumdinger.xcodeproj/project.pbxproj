@@ -12,6 +12,9 @@
 		94435F6E288E976100299F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94435F6D288E976100299F3B /* Assets.xcassets */; };
 		94435F71288E976100299F3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94435F70288E976100299F3B /* Preview Assets.xcassets */; };
 		94CCB3622891335200720EFD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CCB3612891335200720EFD /* DetailView.swift */; };
+		94CCB37E2892939600720EFD /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CCB37D2892939600720EFD /* ThemeView.swift */; };
+		94CCB3802892944500720EFD /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CCB37F2892944500720EFD /* ThemePicker.swift */; };
+		94CCB3822892968C00720EFD /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CCB3812892968C00720EFD /* DetailEditView.swift */; };
 		94D18A2B288FFEE700299AB9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D18A2A288FFEE700299AB9 /* Theme.swift */; };
 		94D18A2D288FFF5D00299AB9 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D18A2C288FFF5D00299AB9 /* DailyScrum.swift */; };
 		94D18A2F288FFF8E00299AB9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D18A2E288FFF8E00299AB9 /* CardView.swift */; };
@@ -26,6 +29,9 @@
 		94435F6D288E976100299F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94435F70288E976100299F3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94CCB3612891335200720EFD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		94CCB37D2892939600720EFD /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		94CCB37F2892944500720EFD /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		94CCB3812892968C00720EFD /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		94D18A2A288FFEE700299AB9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		94D18A2C288FFF5D00299AB9 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		94D18A2E288FFF8E00299AB9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 		94435F68288E975F00299F3B /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				94CCB37D2892939600720EFD /* ThemeView.swift */,
+				94CCB37F2892944500720EFD /* ThemePicker.swift */,
+				94CCB3812892968C00720EFD /* DetailEditView.swift */,
 				94435F69288E975F00299F3B /* ScrumdingerApp.swift */,
 				94435F6B288E975F00299F3B /* MeetingView.swift */,
 				94D18A2E288FFF8E00299AB9 /* CardView.swift */,
@@ -166,10 +175,13 @@
 				94D18A2D288FFF5D00299AB9 /* DailyScrum.swift in Sources */,
 				94CCB3622891335200720EFD /* DetailView.swift in Sources */,
 				94D18A31289001C000299AB9 /* TrailingIconLabelStyle.swift in Sources */,
+				94CCB3802892944500720EFD /* ThemePicker.swift in Sources */,
 				94D18A2B288FFEE700299AB9 /* Theme.swift in Sources */,
 				94D18A33289003A600299AB9 /* ScrumsView.swift in Sources */,
 				94435F6C288E975F00299F3B /* MeetingView.swift in Sources */,
 				94435F6A288E975F00299F3B /* ScrumdingerApp.swift in Sources */,
+				94CCB3822892968C00720EFD /* DetailEditView.swift in Sources */,
+				94CCB37E2892939600720EFD /* ThemeView.swift in Sources */,
 				94D18A2F288FFF8E00299AB9 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
