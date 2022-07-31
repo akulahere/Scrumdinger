@@ -11,6 +11,7 @@ struct ScrumsView: View {
   @Binding var scrums: [DailyScrum]
 
   var body: some View {
+
     List {
       ForEach($scrums) { $scrum in
         NavigationLink(destination: DetailView(scrum: $scrum)) {
