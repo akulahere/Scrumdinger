@@ -20,6 +20,8 @@
 		94683DD828990C8200036095 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94683DD728990C8200036095 /* ScrumStore.swift */; };
 		94683DDA2899131300036095 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94683DD92899131300036095 /* ErrorWrapper.swift */; };
 		94683DDC2899133600036095 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94683DDB2899133600036095 /* ErrorView.swift */; };
+		94683DDE289914B300036095 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94683DDD289914B300036095 /* MeetingTimerView.swift */; };
+		94683DE02899158900036095 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94683DDF2899158900036095 /* SpeakerArc.swift */; };
 		94CCB3622891335200720EFD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CCB3612891335200720EFD /* DetailView.swift */; };
 		94CCB37E2892939600720EFD /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CCB37D2892939600720EFD /* ThemeView.swift */; };
 		94CCB3802892944500720EFD /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CCB37F2892944500720EFD /* ThemePicker.swift */; };
@@ -46,6 +48,8 @@
 		94683DD728990C8200036095 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		94683DD92899131300036095 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		94683DDB2899133600036095 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		94683DDD289914B300036095 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		94683DDF2899158900036095 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		94CCB3612891335200720EFD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		94CCB37D2892939600720EFD /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		94CCB37F2892944500720EFD /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
@@ -97,7 +101,9 @@
 				94D18A2E288FFF8E00299AB9 /* CardView.swift */,
 				94683D532897172A00036095 /* ScrumProgressViewStyle.swift */,
 				94D18A32289003A600299AB9 /* ScrumsView.swift */,
+				94683DDF2899158900036095 /* SpeakerArc.swift */,
 				94CCB3612891335200720EFD /* DetailView.swift */,
+				94683DDD289914B300036095 /* MeetingTimerView.swift */,
 				94683DDB2899133600036095 /* ErrorView.swift */,
 				94D18A29288FFED500299AB9 /* Models */,
 				94435F6D288E976100299F3B /* Assets.xcassets */,
@@ -208,6 +214,7 @@
 				94CCB3622891335200720EFD /* DetailView.swift in Sources */,
 				94D18A31289001C000299AB9 /* TrailingIconLabelStyle.swift in Sources */,
 				94683D522897132E00036095 /* MeetingHeaderView.swift in Sources */,
+				94683DDE289914B300036095 /* MeetingTimerView.swift in Sources */,
 				94CCB3802892944500720EFD /* ThemePicker.swift in Sources */,
 				94683DDA2899131300036095 /* ErrorWrapper.swift in Sources */,
 				94D18A2B288FFEE700299AB9 /* Theme.swift in Sources */,
@@ -218,6 +225,7 @@
 				94CCB3822892968C00720EFD /* DetailEditView.swift in Sources */,
 				94CCB37E2892939600720EFD /* ThemeView.swift in Sources */,
 				94D18A2F288FFF8E00299AB9 /* CardView.swift in Sources */,
+				94683DE02899158900036095 /* SpeakerArc.swift in Sources */,
 				94683D5A28971A8600036095 /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
